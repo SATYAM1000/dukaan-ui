@@ -1,0 +1,48 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap");
+
+.page-name {
+	width: 208px;
+	height: 36px;
+	border: 4px;
+	padding: 8px 16px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.page-name:hover{
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+.icon-home {
+	width: 16.96px;
+	height: 17.5px;
+	opacity: 80%;
+	color: rgba(255, 255, 255, 1);
+}
+
+.page-name-box{
+    width: auto;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-name-home {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent;
+}

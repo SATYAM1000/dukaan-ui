@@ -1,0 +1,187 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/galano-grotesque-alt");
+
+.sidebar {
+	width: 224px;
+	height: 882px;
+	padding: 16px 10px 16px 10px;
+	background: #1e2640;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	font-family: "Inter", sans-serif;
+}
+
+.nav-bottom {
+	width: 192px;
+	height: 54px;
+	border-radius: 4px;
+	padding: 6px 12px 6px 12px;
+	background: #353c53;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.inside {
+	width: 149px;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	gap: 12px;
+}
+.left-icon {
+	height: 36px;
+	width: 36px;
+	border-radius: 4px;
+	padding: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.wallet-icon {
+	width: 24px;
+	height: 24px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.amount-and-credits {
+	width: 101px;
+	height: 42px;
+	gap: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.credits {
+	width: 101px;
+	height: 16px;
+	opacity: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Inter", sans-serif;
+}
+
+.credits p {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Inter", sans-serif;
+}
+
+.amount {
+	width: 51px;
+	height: 24px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Inter", sans-serif;
+}
+
+/* //top navbar design */
+
+.nav-top {
+	width: 208px;
+	height: 780px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+.company-icon {
+	width: 192px;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.img {
+	width: 39px;
+	height: 39px;
+	border-radius: 4px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+}
+
+.img img {
+	width: 39px;
+	height: 39px;
+}
+
+.downward-arrow {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, 1);
+	overflow: hidden;
+}
+.caret {
+	width: 15px;
+	cursor: pointer;
+}
+
+.name {
+	width: 108px;
+	height: 42px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+}
+
+.store-name {
+	width: 108px;
+	height: 22px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Inter", sans-serif;
+}
+.visit {
+	width: 108px;
+	height: 16px;
+	opacity: 80%;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: underline;
+	font-family: "Galano Grotesque", sans-serif;
+	cursor: pointer;
+}
+
+/* //pages---------------- */
+
+.pages {
+	width: 208px;
+	height: 714px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 4px;
+}
