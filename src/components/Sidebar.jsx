@@ -10,11 +10,11 @@ const Sidebar = () => {
 
 	const menuItems=[{
 		name:"Home",
-		path:'src/assets/home.png'
+		path:'./src/assets/home.png'
 	},
 	{
 		name:"Orders",
-		path:'src/assets/orders.png'
+		path:'./src/assets/orders.png'
 	},
 	{
 		name:"Products",
