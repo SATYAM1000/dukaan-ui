@@ -10,47 +10,47 @@ const Sidebar = () => {
 
 	const menuItems=[{
 		name:"Home",
-		path:'/src/assets/home.png'
+		path:'src/assets/home.png'
 	},
 	{
 		name:"Orders",
-		path:'/src/assets/orders.png'
+		path:'src/assets/orders.png'
 	},
 	{
 		name:"Products",
-		path:'/src/assets/products.png'
+		path:'src/assets/products.png'
 	},
 	{
 		name:"Delivery",
-		path:'/src/assets/delivery.png'
+		path:'src/assets/delivery.png'
 	},
 	{
 		name:"Marketing",
-		path:'/src/assets/marketing.png'
+		path:'src/assets/marketing.png'
 	},
 	{
 		name:"Analytics",
-		path:'/src/assets/analytics.png'
+		path:'src/assets/analytics.png'
 	},
 	{
 		name:"Payouts",
-		path:'/src/assets/payouts.png'
+		path:'src/assets/payouts.png'
 	},
 	{
 		name:"Discounts",
-		path:'/src/assets/discount.png'
+		path:'src/assets/discount.png'
 	},
 	{
 		name:"Audience",
-		path:'/src/assets/audience.png'
+		path:'src/assets/audience.png'
 	},
 	{
 		name:"Appearance",
-		path:'/src/assets/appearance.png'
+		path:'src/assets/appearance.png'
 	},
 	{
 		name:"Plugins",
-		path:'/src/assets/plugins.png'
+		path:'src/assets/plugins.png'
 	}
 
 ]
